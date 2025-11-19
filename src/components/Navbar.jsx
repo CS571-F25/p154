@@ -24,7 +24,7 @@ export default function NavBar() {
             flexShrink={0}
           >
             <Heading size="lg" color="blue.600" _dark={{ color: 'blue.400' }}>
-              Seattle Guide
+              The Emerald City Guide
             </Heading>
           </Link>
           

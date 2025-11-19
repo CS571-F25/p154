@@ -1,5 +1,6 @@
 import { Box, Heading, Text, Container, Image } from '@chakra-ui/react'
 import Card from './Card'
+import spaceNeedleImage from '../assets/space-needle-hero.jpg'
 
 export default function Banner({ title }) {
   return (
@@ -7,8 +8,8 @@ export default function Banner({ title }) {
       <Card overflow="hidden" p={0}>
         <Box position="relative">
           <Image
-            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=400&fit=crop"
-            alt="Seattle skyline"
+            src={spaceNeedleImage}
+            alt="Seattle Space Needle"
             w="100%"
             h="300px"
             objectFit="cover"
