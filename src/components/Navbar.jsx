@@ -28,13 +28,19 @@ export default function NavBar() {
             </Heading>
           </Link>
           
-          <Flex flex={1} justify="center" align="center" gap={8}>
+          <Flex flex={1} justify="center" align="center" gap={6} flexWrap="wrap">
             <Link 
               as={RouterLink} 
               to="/" 
               color="gray.700"
               _dark={{ color: 'gray.300' }}
               _hover={{ color: 'blue.600', _dark: { color: 'blue.400' } }}
+              _focus={{ 
+                outline: '2px solid',
+                outlineColor: 'blue.500',
+                outlineOffset: '2px',
+                borderRadius: 'md'
+              }}
               fontWeight="medium"
               whiteSpace="nowrap"
             >
@@ -42,14 +48,20 @@ export default function NavBar() {
             </Link>
             <Link 
               as={RouterLink} 
-              to="/restaurants"
+              to="/places-to-eat"
               color="gray.700"
               _dark={{ color: 'gray.300' }}
               _hover={{ color: 'blue.600', _dark: { color: 'blue.400' } }}
+              _focus={{ 
+                outline: '2px solid',
+                outlineColor: 'blue.500',
+                outlineOffset: '2px',
+                borderRadius: 'md'
+              }}
               fontWeight="medium"
               whiteSpace="nowrap"
             >
-              Restaurants
+              Places to Eat
             </Link>
             <Link 
               as={RouterLink} 
@@ -57,6 +69,12 @@ export default function NavBar() {
               color="gray.700"
               _dark={{ color: 'gray.300' }}
               _hover={{ color: 'blue.600', _dark: { color: 'blue.400' } }}
+              _focus={{ 
+                outline: '2px solid',
+                outlineColor: 'blue.500',
+                outlineOffset: '2px',
+                borderRadius: 'md'
+              }}
               fontWeight="medium"
               whiteSpace="nowrap"
             >
@@ -68,10 +86,50 @@ export default function NavBar() {
               color="gray.700"
               _dark={{ color: 'gray.300' }}
               _hover={{ color: 'blue.600', _dark: { color: 'blue.400' } }}
+              _focus={{ 
+                outline: '2px solid',
+                outlineColor: 'blue.500',
+                outlineOffset: '2px',
+                borderRadius: 'md'
+              }}
               fontWeight="medium"
               whiteSpace="nowrap"
             >
               Activities
+            </Link>
+            <Link 
+              as={RouterLink} 
+              to="/bucket-list"
+              color="gray.700"
+              _dark={{ color: 'gray.300' }}
+              _hover={{ color: 'blue.600', _dark: { color: 'blue.400' } }}
+              _focus={{ 
+                outline: '2px solid',
+                outlineColor: 'blue.500',
+                outlineOffset: '2px',
+                borderRadius: 'md'
+              }}
+              fontWeight="medium"
+              whiteSpace="nowrap"
+            >
+              My Bucket List
+            </Link>
+            <Link 
+              as={RouterLink} 
+              to="/ratings"
+              color="gray.700"
+              _dark={{ color: 'gray.300' }}
+              _hover={{ color: 'blue.600', _dark: { color: 'blue.400' } }}
+              _focus={{ 
+                outline: '2px solid',
+                outlineColor: 'blue.500',
+                outlineOffset: '2px',
+                borderRadius: 'md'
+              }}
+              fontWeight="medium"
+              whiteSpace="nowrap"
+            >
+              My Ratings
             </Link>
           </Flex>
           

@@ -7,7 +7,7 @@ export default function FeatureCard({ title, description, icon, image }) {
       {image && (
         <Image
           src={image}
-          alt={title}
+          alt={`${title} - Featured destination in Seattle`}
           w="100%"
           h="200px"
           objectFit="cover"

@@ -9,7 +9,7 @@ export default function Banner({ title }) {
         <Box position="relative">
           <Image
             src={spaceNeedleImage}
-            alt="Seattle Space Needle"
+            alt="Seattle Space Needle - An iconic observation tower and landmark in Seattle, Washington"
             w="100%"
             h="300px"
             objectFit="cover"
@@ -30,9 +30,9 @@ export default function Banner({ title }) {
             <Heading as="h1" size="2xl" mb={4} color="white">
               {title}
             </Heading>
-            <Text fontSize="lg" color="white" lineHeight="1.7" maxW="2xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </Text>
+                    <Text fontSize="lg" color="white" lineHeight="1.7" maxW="2xl">
+                      Discover the Emerald City through authentic recommendations from a local perspective. Explore great places to eat, iconic sights, and fun group activities that showcase the real Seattle.
+                    </Text>
           </Box>
         </Box>
       </Card>
